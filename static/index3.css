@@ -1,0 +1,45 @@
+body{
+    background: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+input{
+    width:100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background: darkgreen;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
